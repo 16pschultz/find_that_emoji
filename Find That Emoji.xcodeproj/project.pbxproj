@@ -14,6 +14,8 @@
 		D020A25A1AE86C98003E7715 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D020A2591AE86C98003E7715 /* Images.xcassets */; };
 		D020A25D1AE86C98003E7715 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D020A25B1AE86C98003E7715 /* LaunchScreen.xib */; };
 		D020A2691AE86C98003E7715 /* Find_That_EmojiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D020A2681AE86C98003E7715 /* Find_That_EmojiTests.m */; };
+		D020A2741AE8736A003E7715 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = D020A2731AE8736A003E7715 /* Emoji.m */; };
+		D020A2761AE87449003E7715 /* Emoji's in Resources */ = {isa = PBXBuildFile; fileRef = D020A2751AE87449003E7715 /* Emoji's */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		D020A2621AE86C98003E7715 /* Find That EmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find That EmojiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D020A2671AE86C98003E7715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D020A2681AE86C98003E7715 /* Find_That_EmojiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Find_That_EmojiTests.m; sourceTree = "<group>"; };
+		D020A2721AE8736A003E7715 /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Emoji.h; path = ../Emoji.h; sourceTree = "<group>"; };
+		D020A2731AE8736A003E7715 /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Emoji.m; path = ../Emoji.m; sourceTree = "<group>"; };
+		D020A2751AE87449003E7715 /* Emoji's */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Emoji's"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 			children = (
 				D020A2501AE86C98003E7715 /* AppDelegate.h */,
 				D020A2511AE86C98003E7715 /* AppDelegate.m */,
+				D020A2721AE8736A003E7715 /* Emoji.h */,
+				D020A2731AE8736A003E7715 /* Emoji.m */,
 				D020A2531AE86C98003E7715 /* ViewController.h */,
 				D020A2541AE86C98003E7715 /* ViewController.m */,
 				D020A2561AE86C98003E7715 /* Main.storyboard */,
@@ -96,6 +103,7 @@
 		D020A24C1AE86C98003E7715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D020A2751AE87449003E7715 /* Emoji's */,
 				D020A24D1AE86C98003E7715 /* Info.plist */,
 				D020A24E1AE86C98003E7715 /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D020A2581AE86C98003E7715 /* Main.storyboard in Resources */,
+				D020A2761AE87449003E7715 /* Emoji's in Resources */,
 				D020A25D1AE86C98003E7715 /* LaunchScreen.xib in Resources */,
 				D020A25A1AE86C98003E7715 /* Images.xcassets in Resources */,
 			);
@@ -221,6 +230,7 @@
 			files = (
 				D020A2551AE86C98003E7715 /* ViewController.m in Sources */,
 				D020A2521AE86C98003E7715 /* AppDelegate.m in Sources */,
+				D020A2741AE8736A003E7715 /* Emoji.m in Sources */,
 				D020A24F1AE86C98003E7715 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
